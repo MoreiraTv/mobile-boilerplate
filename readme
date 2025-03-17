@@ -1,0 +1,9 @@
+npx create-expo-app --template
+Navigation (TypeScript)
+bun i expo-router@4.0.19
+npx gluestack-ui init
+yes
+yes
+npx gluestack-ui add --all --use-bun
+cd 
+npx expo start -c
