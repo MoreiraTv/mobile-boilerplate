@@ -56,7 +56,7 @@ function RootLayoutNav() {
         <Stack screenOptions={{
           headerShown: false,
         }}>
-          <Stack.Screen name="(home)/index" />
+          <Stack.Screen name="(tabs)" />
         </Stack>
       </ThemeProvider>
     </GluestackUIProvider>
