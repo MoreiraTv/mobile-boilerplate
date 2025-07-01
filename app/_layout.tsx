@@ -51,14 +51,14 @@ function RootLayoutNav() {
   const colorScheme = useColorScheme();
 
   return (
-    <GluestackUIProvider mode="light">
-      {/* <ThemeProvider value={colorScheme === 'light' ? DarkTheme : DefaultTheme}> */}
-        <Stack>
-          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-          <Stack.Screen name="modal" options={{ presentation: 'modal' }} />
-          <Stack.Screen name="exercise/[id]" options={{ headerShown: false }} />
+    <GluestackUIProvider mode={colorScheme === 'light' ? 'light' : 'dark'}>
+      <ThemeProvider value={colorScheme === 'light' ? DefaultTheme : DarkTheme}>
+        <Stack screenOptions={{
+          headerShown: false,
+        }}>
+          <Stack.Screen name="(home)/index" />
         </Stack>
-      {/* </ThemeProvider> */}
+      </ThemeProvider>
     </GluestackUIProvider>
   );
 }
