@@ -1,7 +1,7 @@
 import { Header, HeaderAvatar, HeaderButton, HeaderButtonIcon, HeaderTitle } from '@/components/header';
 import { VStack } from '@/components/ui/vstack';
 import { ChevronRightIcon } from "@/components/ui/icon"
-import { FlatList, Text } from 'react-native';
+import { FlatList, Pressable, Text } from 'react-native';
 import { HStack } from '@/components/ui/hstack';
 import { useState } from 'react';
 import { Button, ButtonText } from '@/components/ui/button';
@@ -70,7 +70,9 @@ export default function TabHome() {
             }}
             asChild
             >
-              <ExerciseCard title={item} description={item} image='' onPress={() => {}} className='p-2 m-2 active:opacity-70 bg-white rounded-xl shadow-lg shadow-zinc-950' />
+              <Pressable>
+                <ExerciseCard title={item} description={item} image='' className='p-2 m-2 active:opacity-70 bg-white rounded-xl shadow-lg shadow-zinc-950' />
+              </Pressable>
             </Link>
           )}
           showsVerticalScrollIndicator={false}

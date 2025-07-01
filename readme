@@ -1,1 +1,101 @@
+# Estrutura de Pastas do Projeto
+
+Abaixo está uma visão geral da estrutura de pastas e arquivos do projeto:
+
+```
+.
+├── app/
+│   ├── (tabs)/
+│   │   ├── _layout.tsx     # Layout da navegação por abas
+│   │   ├── history.tsx     # Tela de histórico de exercícios
+│   │   ├── index.tsx       # Tela inicial (Home)
+│   │   └── profile.tsx     # Tela de perfil do usuário
+│   ├── exercise/
+│   │   └── [id].tsx        # Tela de detalhes de um exercício específico
+│   ├── _layout.tsx         # Layout principal do aplicativo
+│   ├── +html.tsx           # Configuração do HTML para a versão web
+│   └── modal.tsx           # Tela de exemplo de um modal
+├── assets/
+│   ├── fonts/              # Fontes personalizadas
+│   └── images/             # Imagens e ícones estáticos
+├── components/
+│   ├── ui/                 # Componentes de UI reutilizáveis (baseados em gluestack-ui)
+│   │   ├── accordion
+│   │   ├── actionsheet
+│   │   ├── alert
+│   │   ├── alert-dialog
+│   │   ├── avatar
+│   │   ├── badge
+│   │   ├── box
+│   │   ├── button
+│   │   ├── card
+│   │   ├── center
+│   │   ├── checkbox
+│   │   ├── divider
+│   │   ├── drawer
+│   │   ├── fab
+│   │   ├── flat-list
+│   │   ├── form-control
+│   │   ├── gluestack-ui-provider
+│   │   ├── grid
+│   │   ├── heading
+│   │   ├── hstack
+│   │   ├── icon
+│   │   ├── image
+│   │   ├── image-background
+│   │   ├── input
+│   │   ├── input-accessory-view
+│   │   ├── keyboard-avoiding-view
+│   │   ├── link
+│   │   ├── menu
+│   │   ├── modal
+│   │   ├── popover
+│   │   ├── portal
+│   │   ├── pressable
+│   │   ├── progress
+│   │   ├── radio
+│   │   ├── refresh-control
+│   │   ├── safe-area-view
+│   │   ├── scroll-view
+│   │   ├── section-list
+│   │   ├── select
+│   │   ├── skeleton
+│   │   ├── slider
+│   │   ├── spinner
+│   │   ├── status-bar
+│   │   ├── switch
+│   │   ├── table
+│   │   ├── text
+│   │   ├── textarea
+│   │   ├── toast
+│   │   ├── tooltip
+│   │   ├── utils
+│   │   ├── view
+│   │   ├── virtualized-list
+│   │   ├── vstack
+│   │   ├── useClientOnlyValue
+│   │   ├── useClientOnlyValue.web
+│   │   ├── useColorScheme
+│   │   ├── useColorScheme.web
+│   ├── ExerciseCard/       # Componente de card para exercícios
+│   ├── Header/             # Componente de cabeçalho reutilizável
+│   ├── HistoryCard/        # Componente de card para o histórico
+│   └── ScreenHeader/       # Cabeçalho padrão para as telas
+├── constants/
+│   └── Colors.ts           # Constantes de cores
+├── hooks/
+│   └── useColorScheme.ts   # Hook para gerenciar o tema de cores
+├── lib/
+│   └── utils.ts            # Funções utilitárias
+├── .gitignore              # Arquivos e pastas ignorados pelo Git
+├── app.json                # Configurações do Expo
+├── babel.config.js         # Configurações do Babel
+├── global.css              # Estilos globais com Tailwind CSS
+├── metro.config.js         # Configurações do Metro Bundler
+├── package.json            # Dependências e scripts do projeto
+├── postcss.config.js       # Configurações do PostCSS
+├── readme                  # Arquivo README do projeto
+├── tailwind.config.js      # Configurações do Tailwind CSS
+└── tsconfig.json           # Configurações do TypeScript
+```
 
