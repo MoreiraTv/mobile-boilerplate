@@ -1,7 +1,7 @@
-import { Card, ICardProps } from "../ui/card";
-import { Heading } from "../ui/heading";
-import { Text } from "../ui/text";
-import { VStack } from "../ui/vstack";
+import { Card, ICardProps } from "../../@template/components/ui/card";
+import { Heading } from "../../@template/components/ui/heading";
+import { Text } from "../../@template/components/ui/text";
+import { VStack } from "../../@template/components/ui/vstack";
 
 type Props = ICardProps & {}
 
