@@ -1,11 +1,11 @@
 import { Header, HeaderAvatar, HeaderButton, HeaderButtonIcon, HeaderTitle } from '@/components/header';
-import { VStack } from '@/components/ui/vstack';
-import { ChevronRightIcon } from "@/components/ui/icon"
+import { VStack } from '@/@template/components/ui/vstack';
+import { ChevronRightIcon } from "@/@template/components/ui/icon"
 import { FlatList, Pressable, Text } from 'react-native';
-import { HStack } from '@/components/ui/hstack';
+import { HStack } from '@/@template/components/ui/hstack';
 import { useState } from 'react';
-import { Button, ButtonText } from '@/components/ui/button';
-import { Heading } from '@/components/ui/heading';
+import { Button, ButtonText } from '@/@template/components/ui/button';
+import { Heading } from '@/@template/components/ui/heading';
 import { ExerciseCard } from '@/components/ExerciseCard';
 import { Link } from 'expo-router';
 

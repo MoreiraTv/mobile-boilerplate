@@ -1,5 +1,5 @@
-import { Text } from '@/components/ui/text';
-import { VStack } from '@/components/ui/vstack';
+import { Text } from '@/@template/components/ui/text';
+import { VStack } from '@/@template/components/ui/vstack';
 import { Link, Stack } from 'expo-router';
 import { StyleSheet } from 'react-native';
 

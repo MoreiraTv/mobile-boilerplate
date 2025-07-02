@@ -1,8 +1,8 @@
 import { HistoryCard } from '@/components/HistoryCard';
 import { ScreenHeader } from '@/components/ScreenHeader';
-import { Heading } from '@/components/ui/heading';
-import { Text } from '@/components/ui/text';
-import { VStack } from '@/components/ui/vstack';
+import { Heading } from '@/@template/components/ui/heading';
+import { Text } from '@/@template/components/ui/text';
+import { VStack } from '@/@template/components/ui/vstack';
 import { useState } from 'react';
 import { SectionList } from 'react-native';
 

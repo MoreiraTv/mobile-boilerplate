@@ -1,9 +1,9 @@
-import { Button } from "../ui/button"
-import { Center } from "../ui/center"
-import { Heading } from "../ui/heading"
-import { HStack } from "../ui/hstack"
-import { Icon, ArrowLeftIcon } from "../ui/icon"
-import { VStack } from "../ui/vstack"
+import { Button } from "../../@template/components/ui/button"
+import { Center } from "../../@template/components/ui/center"
+import { Heading } from "../../@template/components/ui/heading"
+import { HStack } from "../../@template/components/ui/hstack"
+import { Icon, ArrowLeftIcon } from "../../@template/components/ui/icon"
+import { VStack } from "../../@template/components/ui/vstack"
 
 type Props = {
   title: string

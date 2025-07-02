@@ -1,14 +1,14 @@
-import { HStack } from "@/components/ui/hstack"
+import { HStack } from "@/@template/components/ui/hstack"
 import {
   Avatar,
   AvatarBadge,
   AvatarFallbackText,
   AvatarImage,
-} from "@/components/ui/avatar"
-import { Button, ButtonText } from "@/components/ui/button"
-import { Icon } from "../ui/icon"
+} from "@/@template/components/ui/avatar"
+import { Button, ButtonText } from "@/@template/components/ui/button"
+import { Icon } from "../../@template/components/ui/icon"
 import { cn } from "@/lib/utils"
-import { Heading } from "../ui/heading"
+import { Heading } from "../../@template/components/ui/heading"
 
 export function Header({ children, className }: { children?: React.ReactNode, className?: string }) {
   

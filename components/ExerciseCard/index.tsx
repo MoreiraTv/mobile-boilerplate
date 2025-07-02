@@ -1,8 +1,8 @@
-import { Card } from "../ui/card"
-import { Heading } from "../ui/heading"
-import { Text } from "../ui/text"
-import { Image } from "../ui/image"
-import { VStack } from "../ui/vstack"
+import { Card } from "../../@template/components/ui/card"
+import { Heading } from "../../@template/components/ui/heading"
+import { Text } from "../../@template/components/ui/text"
+import { Image } from "../../@template/components/ui/image"
+import { VStack } from "../../@template/components/ui/vstack"
 // import { Pressable, IPressableProps } from "../ui/pressable"
 
 type Props = {

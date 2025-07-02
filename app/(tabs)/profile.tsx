@@ -1,9 +1,9 @@
 import { ScreenHeader } from '@/components/ScreenHeader';
-import { Avatar, AvatarBadge, AvatarFallbackText, AvatarImage } from '@/components/ui/avatar';
-import { Button } from '@/components/ui/button';
-import { Input, InputField } from '@/components/ui/input';
-import { Text } from '@/components/ui/text';
-import { VStack } from '@/components/ui/vstack';
+import { Avatar, AvatarBadge, AvatarFallbackText, AvatarImage } from '@/@template/components/ui/avatar';
+import { Button } from '@/@template/components/ui/button';
+import { Input, InputField } from '@/@template/components/ui/input';
+import { Text } from '@/@template/components/ui/text';
+import { VStack } from '@/@template/components/ui/vstack';
 
 export default function TabProfile() {
   return (

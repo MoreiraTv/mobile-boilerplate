@@ -1,10 +1,10 @@
 import { ScreenHeader } from '@/components/ScreenHeader';
-import { Button } from '@/components/ui/button';
-import { Card } from '@/components/ui/card';
-import { Center } from '@/components/ui/center';
-import { HStack } from '@/components/ui/hstack';
-import { Image } from '@/components/ui/image';
-import { VStack } from '@/components/ui/vstack';
+import { Button } from '@/@template/components/ui/button';
+import { Card } from '@/@template/components/ui/card';
+import { Center } from '@/@template/components/ui/center';
+import { HStack } from '@/@template/components/ui/hstack';
+import { Image } from '@/@template/components/ui/image';
+import { VStack } from '@/@template/components/ui/vstack';
 import { router, useLocalSearchParams } from 'expo-router';
 import { Text } from 'react-native';
 
